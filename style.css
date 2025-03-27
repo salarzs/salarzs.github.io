@@ -19,3 +19,12 @@ footer {
   min-height: 10vh;
 }
 
+#about {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Choose color based on your image contrast */
+  padding: 100px 20px; /* Adjust padding for better spacing */
+  text-shadow: 1px 1px 3px black; /* Optional, for better readability */
+}
