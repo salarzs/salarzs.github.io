@@ -76,8 +76,13 @@ footer {
 }
 
 .project-image {
-  margin-top: 10px;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
 }
+
 
 .project-pdf embed {
   border: none;
