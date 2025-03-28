@@ -79,3 +79,9 @@ footer {
   margin-top: 10px;
 }
 
+.project-pdf embed {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
