@@ -103,4 +103,32 @@ section {
   text-align: left;
   margin-bottom: 10px;
 }
+#background h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.timeline-card {
+  background: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-4px);
+}
+
+.timeline-card h5 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.timeline-card p {
+  margin: 0.3rem 0;
+}
+
 
