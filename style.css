@@ -131,8 +131,9 @@ section {
   margin: 0.3rem 0;
 }
 
+
 .contact-section {
-  background-color: #f8f9fb;
+  background-color: #d3d3d3; /* light grey */
   padding: 100px 20px;
 }
 
