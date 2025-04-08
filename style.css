@@ -175,8 +175,9 @@ section {
 
 .logo-track {
   display: flex;
-  animation: scrollLoop 20s linear infinite;
+  flex-direction: row-reverse; /* Scroll rightward */
   width: max-content;
+  animation: scrollRight 20s linear infinite;
 }
 
 .logo-track img {
@@ -185,13 +186,13 @@ section {
   object-fit: contain;
 }
 
-/* Seamless leftward sliding */
-@keyframes scrollLoop {
+/* Move from left to right infinitely */
+@keyframes scrollRight {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(0%);
   }
 }
 
