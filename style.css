@@ -166,5 +166,34 @@ section {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+.logo-banner {
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  padding: 40px 0;
+}
+
+.logo-track {
+  display: flex;
+  width: fit-content;
+  animation: scrollLogos 15s linear infinite;
+}
+
+.logo-track img {
+  height: 60px;
+  margin: 0 40px;
+  object-fit: contain;
+}
+
+/* Animation */
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
 
 
