@@ -175,7 +175,7 @@ section {
 
 .logo-track {
   display: flex;
-  width: fit-content;
+  width: max-content;
   animation: scrollLogos 15s linear infinite;
 }
 
@@ -194,6 +194,7 @@ section {
     transform: translateX(100%);
   }
 }
+
 
 
 
