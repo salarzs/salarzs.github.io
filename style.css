@@ -196,3 +196,18 @@ section {
   }
 }
 
+#personal-projects {
+  min-height: 50vh; /* Half the height of your other sections */
+  display: flex;
+  align-items: center;
+}
+
+.personal-projects-link {
+  color: #007bff; /* Bootstrap's primary blue */
+  text-decoration: none;
+}
+
+.personal-projects-link:hover {
+  text-decoration: underline;
+}
+
