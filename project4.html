@@ -4,11 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project 4 - Salar Zamani Salimi</title>
+
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top bg-light">
     <div class="container">
       <a class="navbar-brand" href="index.html">Salar Zamani Salimi</a>
@@ -25,20 +32,59 @@
     </div>
   </nav>
 
-  <section class="container py-5 mt-5">
-    <h1 class="mb-4">The role of wetting on the flow of two immiscible fluids in porous media</h1>
-    <p>We study the role of the capillary number, $Ca$ and of the surface wettability on the dynamics of the interface between an invading and a defending phase in a porous medium by means of numerical simulations. We employ a hybrid phase field-immersed boundary approach to successfully model the contact line dynamics over the solid objects. Using a phase-field method which naturally incorporates dynamic wetting we eliminate the need for empirical contact line models to address contact line singularity.
-We map the two dominant modes governing the motion of the interface, namely, capillary fingering, and stable penetration, in the ($Ca$-$\theta$) plane, with $\theta$ the static contact angle prescribed at the solid pores. Capillary fingering dominates at lower values of $Ca$ and pores hydrophobic to the invading phase, while a stable penetration is observed on hydrophillic surfaces. We present new measurements and analyses, including curvature probability density functions (\zs{PDF}) and average curvature. We also show that the pressure needed for the invading phase to advance at constant flow rate decreases with the capillary number, and increases with the contact angle at the capillary numbers considered. The latter is due to a significant  increase of the length of the interface in the case of capillary fingering. Finally, we show that it is possible to identify the different interfacial modes by measuring the penetration length and velocity during the medium filling.</p>
-    <div class="text-center mt-4">
-      <img src="images/proj_amm.png" alt="Project 4 Image" class="project-image">
+  <!-- Project 4 Content -->
+  <section class="container py-5" style="margin-top: 100px;">
+    <div class="row">
+      <!-- Left: Project Description -->
+      <div class="col-md-8">
+        <h1>The role of wetting on the flow of two immiscible fluids in porous media</h1>
+        <p class="lead mt-3" style="max-width: 90%; text-align: justify;">
+          We study the role of the capillary number, \( Ca \), and of the surface wettability on the dynamics of the interface between an invading and a defending phase in a porous medium by means of numerical simulations. 
+          We employ a hybrid phase field–immersed boundary approach to successfully model the contact line dynamics over the solid objects. 
+          Using a phase-field method, which naturally incorporates dynamic wetting, we eliminate the need for empirical contact line models to address the contact line singularity.
+          <br><br>
+          We map the two dominant modes governing the motion of the interface, namely capillary fingering and stable penetration, in the \( (Ca\text{–}\theta) \) plane, with \( \theta \) the static contact angle prescribed at the solid pores. 
+          Capillary fingering dominates at lower values of \( Ca \) and pores hydrophobic to the invading phase, while stable penetration is observed on hydrophilic surfaces. 
+          We present new measurements and analyses, including curvature probability density functions (PDFs) and average curvature. 
+          We also show that the pressure needed for the invading phase to advance at constant flow rate decreases with the capillary number, and increases with the contact angle at the capillary numbers considered. 
+          The latter is due to a significant increase of the length of the interface in the case of capillary fingering. 
+          Finally, we show that it is possible to identify the different interfacial modes by measuring the penetration length and velocity during the medium filling.
+        </p>
+
+        <div class="text-center mt-4">
+          <img src="images/proj_amm.png" alt="Project 4 Image" class="img-fluid rounded shadow-sm" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+
+      <!-- Right: Collaborators -->
+      <div class="col-md-4">
+        <div class="bg-light rounded shadow-sm p-4">
+          <h4 class="mb-3">Project Partners</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <i class="bi bi-building me-2"></i>
+              <strong>Norwegian University of Science and Technology (NTNU)</strong><br>
+            </li>
+            <li class="mb-3">
+              <i class="bi bi-building me-2"></i>
+              <strong>Politecnico di Torino</strong><br>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="text-center bg-dark text-white py-3">
     © 2025 Salar Zamani Salimi
   </footer>
 
+  <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 </html>
 
